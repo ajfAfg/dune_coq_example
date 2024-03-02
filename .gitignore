@@ -30,3 +30,6 @@ _opam/
 
 # Judge data
 judgedata
+
+# NOTE: Ignore files generated while writing `Extraction.v` in CoqIDE
+/*.ml*
