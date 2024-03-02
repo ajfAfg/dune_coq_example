@@ -1,2 +1,12 @@
 (library
  (name dune_coq_example))
+
+(env
+ (dev
+  (flags
+   (:standard -warn-error -A))))
+
+(coq.extraction
+ (prelude Extraction)
+ (extracted_modules myFun insertionSort)
+ (theories Example))
