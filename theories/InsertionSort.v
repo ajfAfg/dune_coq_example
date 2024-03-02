@@ -1,3 +1,6 @@
+(* NOTE:
+  This program is taken from ["プログラミング Coq"](https://www.iijlab.net/activities/programming-coq/coqt8.html).
+ *)
 Require Import List.
 Require Import PeanoNat.
 Require Import Arith.
