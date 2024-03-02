@@ -26,3 +26,8 @@ References between Coq codes are realized by the following file arrangement:
   - Setting up `coq.extraction` is a pain. I think `prelude` is necessary (for code identification for code extraction), but I don't see why `extracted_modules` is needed.
 - When Coq code for code extraction is opened in CoqIDE, the code is also extracted in the project root.
   - It's a little creepy, though, if we just ignore it with `.gitignore`.
+
+## References
+
+- [Documents about Coq on dune](https://dune.readthedocs.io/en/stable/coq.html)
+- [Proof about Insertion Sort](https://www.iijlab.net/activities/programming-coq/coqt8.html)
