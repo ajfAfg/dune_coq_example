@@ -28,3 +28,5 @@
 ; NOTE: See https://dune.readthedocs.io/en/stable/coq.html
 
 (using coq 0.8)
+
+(cram enable)
